@@ -14,7 +14,7 @@ for repo in g.get_organization("oracle").get_repos():
 sorted_repositories = sorted(repositories, key=lambda repo : -repo["size"])
 
 del sorted_repositories[0]
-del sorted_repositories[1]
+del sorted_repositories[0]
 
 for i in range(15) :
     print(sorted_repositories[i]["name"])
