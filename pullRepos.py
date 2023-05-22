@@ -1,6 +1,6 @@
 from github import Github
 
-g = Github("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")
+g = Github("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")
 
 repositories = [] 
 
