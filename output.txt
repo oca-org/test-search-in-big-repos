@@ -1,5 +1,0 @@
-oci-java-sdk
-oci-python-sdk
-oci-ansible-collection
-oci-python-sdk-imported
-hiq

@@ -20,7 +20,7 @@ while IFS= read -r line; do
   echo "pulling the repository $line"
   # Run TypeScript command on each line
   empty=""
-  git clone https://ghp_LllIA28Al7H${empty}BxZlraiDWCR04hXLru745q4MT@github.com/oca-org/$line.git
+  git clone https://ghp_LllIA28Al7H${empty}BxZlraiDWCR04hXLru745q4MT@github.com/oracle/$line.git
   echo "repository $line retreved"
   echo "performing the check"
   execution_time=$(npm --prefix TestSearchForRepo start "../$line" | tail -n 1)
