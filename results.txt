@@ -1,5 +1,0 @@
-oci-java-sdk: Execution time: 467ms
-oci-python-sdk: Execution time: 455ms
-oci-ansible-collection: Execution time: 312ms
-oci-python-sdk-imported: Execution time: 465ms
-hiq: Execution time: 171ms
