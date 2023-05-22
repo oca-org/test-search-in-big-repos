@@ -5,9 +5,10 @@ shell: bash
 
 steps:
   - type: Command
-    name: "Install Typescript dependencies"
+    name: "Install dependencies"
     command: |
       npm --prefix TestSearchForRepo install
+      pip3 install PyGithub
   - type: Command
     name: "Get the repositories names"
     command: |
