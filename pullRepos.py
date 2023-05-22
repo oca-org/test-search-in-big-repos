@@ -1,8 +1,8 @@
 from github import Github
 
-g = Github("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")
+g = Github("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")
 
-repositories = [] 
+repositories = []
 
 for repo in g.get_organization("oca-org").get_repos():
     repositories.append({"name": repo.name, "size": repo.size})
