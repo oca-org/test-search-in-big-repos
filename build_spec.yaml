@@ -1,6 +1,6 @@
 version: 0.1
 component: build
-timeoutInSeconds: 600000
+timeoutInSeconds: 28000
 shell: bash
 
 steps:
