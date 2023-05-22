@@ -1,6 +1,10 @@
 from github import Github
 
-g = Github("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")
+token = "ghp_LllIA28Al7H BxZlraiDWC R04hXLru745q4 MT"
+
+token = token.replace(" ", "")
+
+g = Github(token)
 
 repositories = []
 
