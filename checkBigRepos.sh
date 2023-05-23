@@ -23,7 +23,7 @@ while IFS= read -r line; do
   git clone https://ghp_LllIA28Al7H${empty}BxZlraiDWCR04hXLru745q4MT@github.com/oracle/$line.git
   echo "repository $line retreved"
   echo "performing the check"
-  execution_time=$(npm --prefix TestSearchForRepo start "../$line" | tail -n 1)
+  execution_time=$(npm --prefix TestSearchForRepo start "../$line" $line | tail -n 1)
   echo "$line: $execution_time" >> results.txt
   echo "check on $line completed"
   echo "remove repository $line"

@@ -1,0 +1,15 @@
+{
+    "dtrace-linux-dtrace-linux-kernel" : "kallmodsyms/latest",
+    "linux-uek " : "maple/mainline",
+    "gcc" : "master",
+    "kubernetes" : "master",
+    "graaljs" : "release/graal-vm/23.0",
+    "spacewalk" : "master", 
+    "fastr" : "release/graal-vm/23.0", 
+    "visualvm" : "release216",
+    "container-images" : "dist-arm64v8",
+    "binutils-gdb" : "master",
+    "opengrok" : "master",
+    "cloudtestdrive" : "master",
+    "terraform-provider-oci" : "master"
+}
