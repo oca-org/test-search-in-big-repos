@@ -11,5 +11,6 @@
     "binutils-gdb" : "master",
     "opengrok" : "master",
     "cloudtestdrive" : "master",
-    "terraform-provider-oci" : "master"
+    "terraform-provider-oci" : "master",
+    "lala": "test"
 }

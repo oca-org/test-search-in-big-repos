@@ -1,15 +1,8 @@
-const branches = require("./branchNames.json");
 
 const { testSearchForRepos } = require('./testSearchForRepos');
 
 const args = process.argv.slice(2);
 
-const { exec } = require("child_process");
-
-const repository = args[1];
-
-
-exec("git checkout " + branches[repository])
 
 if (args.length === 0) {
         throw new Error('No repository provided.');
