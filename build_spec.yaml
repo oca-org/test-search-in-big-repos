@@ -9,7 +9,7 @@ steps:
     command: |
       npm --prefix TestSearchForRepo install
       pip3 install PyGithub
-      dnf install jq
+      yum install jq
   - type: Command
     name: "Get the repositories names"
     command: |
