@@ -1,6 +1,6 @@
 {
-    "dtrace-linux-dtrace-linux-kernel" : "kallmodsyms/latest",
-    "linux-uek " : "maple/mainline",
+    "dtrace-linux-kernel" : "kallmodsyms/latest",
+    "linux-uek" : "maple/mainline",
     "gcc" : "master",
     "kubernetes" : "master",
     "graaljs" : "release/graal-vm/23.0",
