@@ -1,8 +1,8 @@
+const branches = require("./branchNames.json");
+
 const { testSearchForRepos } = require('./testSearchForRepos');
 
 const args = process.argv.slice(2);
-
-import branches from "./branchNames.json";
 
 const { exec } = require("child_process");
 
