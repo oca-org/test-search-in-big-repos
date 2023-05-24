@@ -12,5 +12,12 @@
     "opengrok" : "master",
     "cloudtestdrive" : "master",
     "terraform-provider-oci" : "master",
-    "lala": "test"
+    "lala": "test",
+    "solaris-openssl-fips" : "master",
+    "terraform-opc-ip-networks" : "master",
+    "terraform-opc-compute-instance" : "master",
+    "cordova-plugin-emm-app-config" : "master",
+    "infinity-cutycapt" : "master",
+    "cloud-asset-fusion-jcs-extension-with-idcss" : "master"
+
 }
