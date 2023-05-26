@@ -25,9 +25,10 @@ while IFS= read -r line; do
   branch_name=$(jq --arg key $line '.[$key]' TestSearchForRepo/branchNames.json | tr -d '"')
   cd $line
   git checkout $branch_name
+  rm -r .git
   cd ..
   echo "performing the check"
-  execution_time=$(npm --prefix TestSearchForRepo start "../$line" | tail -n 1)
+  execution_time="repository size : $(du -sh $line), $(npm --prefix TestSearchForRepo start "../$line" | tail -n 1)"
   echo "$line: $execution_time" >> results.txt
   echo "check on $line completed"
   echo "remove repository $line"
